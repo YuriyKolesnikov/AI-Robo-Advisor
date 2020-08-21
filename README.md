@@ -1,5 +1,5 @@
 # AI-Robo-Advisor
-### Autonomous Robo-Advisor based on Genetic Algorithm and Evolutionary Strategy using Deep Neural Networks.
+### Autonomous AI Robo-Advisor based on Multi-Agent Reinforcement Learning, Genetic Algorithm, and Evolutionary Strategy using Deep Neural Networks.
 * The Autonomous Robo-Advisor is endowed with partial consciousness and the ability to understand in real-time his own level of quality and his perspectives.
 
 * He realizes how well he succeeds in achieving his goal in the initially given data space.
