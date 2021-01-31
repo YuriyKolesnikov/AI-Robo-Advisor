@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 import time 
 from binance.client import Client
 
-def trede_agent(lock, number_workers):
+def trade_agent(lock, number_workers):
 
     # ENDLESS CYCLE for continuous exploration of window time, learning and trading
     while True:
