@@ -1,6 +1,6 @@
 # Launch of an autonomous robo-advisor
 from train import train_agent
-from trade import trede_agent
+from trade import trade_agent
 from multiprocessing import Process
 from multiprocessing import Lock
 from utils import primary_initialization_window_time_rmse
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     training_process_1 = Process(target=train_agent, args=(lock, individual_agent_number_0))
     training_process_2 = Process(target=train_agent, args=(lock, individual_agent_number_1))
     
-    trading_process = Process(target=trede_agent, args=(lock,number_workers))
+    trading_process = Process(target=trade_agent, args=(lock,number_workers))
     #########################
     training_process_1.start()
     training_process_2.start()
